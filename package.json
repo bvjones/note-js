@@ -1,0 +1,22 @@
+{
+  "name": "note-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "note-list-model-test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bvjones/note-js.git"
+  },
+  "author": "Ben Vaughan-Jones, Lauren Watson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bvjones/note-js/issues"
+  },
+  "homepage": "https://github.com/bvjones/note-js#readme",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  }
+}

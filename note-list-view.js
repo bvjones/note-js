@@ -7,7 +7,12 @@ var NoteList = require("./note-list-model.js").NoteList;
   };
 
   NoteListView.prototype.output = function() {
-    return "<ul><li><div>"+ this.noteList.list()[0].read() +"</div></li></ul>";
+    string = "<ul>"
+    for(i=0; i<this.noteList.list().length; i++){
+      string+= "<li><div>"+ this.noteList.list()[i].read() +"</div></li>";
+    }
+    string+="</ul>"
+    return string
   };
 
   exports.NoteListView = NoteListView;
