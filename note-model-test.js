@@ -1,4 +1,4 @@
-var note = require("note-model")
+var Note = require("./note-model.js").Note;
 
 function testReturnsInstantiatedString() {
   var note = new Note('Why is Ben always lying?');
